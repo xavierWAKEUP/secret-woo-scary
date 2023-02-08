@@ -3,12 +3,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $username = $_POST["username"];
   $password = $_POST["password"];
 
-  // Add code to validate the username and password
-  // ...
-
-  // Redirect to a different page if the validation is successful
-  header("Location: http://www.example.com/welcome.php");
-  exit;
+  if ($username === "Xavier" && $password === "Xavier232") {
+    header("Location: http://www.example.com/welcome.php");
+    exit;
+  } else {
+    echo "Incorrect username or password. Please try again.";
+  }
 }
 ?>
 
