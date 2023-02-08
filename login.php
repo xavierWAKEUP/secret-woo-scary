@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $password = $_POST["password"];
 
   if ($username === "Xavier" && $password === "Xavier232") {
-    header("Location: http://www.example.com/welcome.php");
+    header("Location: https://xavierwakeup.github.io/secret-woo-scary/welcome.php");
     exit;
   } else {
     echo "Incorrect username or password. Please try again.";
