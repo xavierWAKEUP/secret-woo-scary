@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  width: 100px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+p {
+  color: red;
+}
+
+a {
+  margin-top: 20px;
+  display: block;
+}
