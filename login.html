@@ -1,14 +1,52 @@
+<!-- Login Page -->
 <!DOCTYPE html>
 <html>
 <head>
   <title>Login Page</title>
+  <style>
+    /* Add your CSS styles here */
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .form {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      box-shadow: 2px 2px 10px #333;
+      width: 400px;
+    }
+    input[type="text"],
+    input[type="password"] {
+      padding: 10px;
+      margin-bottom: 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: none;
+    }
+    .btn {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-  <h1>Login</h1>
-  <form action="welcome.html" method="post">
-    <input type="text" name="username" placeholder="Username">
-    <input type="password" name="password" placeholder="Password">
-    <input type="submit" value="Submit">
-  </form>
+  <div class="container">
+    <form class="form">
+      <input type="text" placeholder="Username">
+      <input type="password" placeholder="Password">
+      <a href="welcome.html" class="btn">Submit</a>
+    </form>
+  </div>
 </body>
 </html>
