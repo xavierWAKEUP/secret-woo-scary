@@ -1,35 +1,18 @@
-<!-- Main Page -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Main Page</title>
-  <style>
-    /* Add your CSS styles here */
-    .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-    }
-    .title {
-      font-size: 36px;
-      margin-bottom: 20px;
-    }
-    .btn {
-      padding: 10px 20px;
-      background-color: #333;
-      color: #fff;
-      border-radius: 5px;
-      text-decoration: none;
-      font-size: 16px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puff Product Verification</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <div class="title">Welcome to the Main Page</div>
-    <a href="login.html" class="btn">Login</a>
-  </div>
+    <h1>Puff Product Verification</h1>
+    <p>Enter your code:</p>
+    <input type="text" id="verificationCode" placeholder="Enter code">
+    <button id="verifyButton">Verify</button>
+    <p id="verificationResult"></p>
+
+    <script src="script.js"></script>
 </body>
 </html>
